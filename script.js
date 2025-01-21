@@ -50,6 +50,8 @@ window.addEventListener("load", () => {
             articulos.forEach(articulo => {
                 const article = document.createElement('article');
                 article.classList.add('postcard', 'light', articulo.color);
+
+                const tagsHTML = articulo.tags.join("");
                 
                 article.innerHTML = `
                     <a class="postcard__img_link" href="${articulo.link}">
@@ -59,16 +61,15 @@ window.addEventListener("load", () => {
                         <h1 class="postcard__title ${articulo.color}"><a href="${articulo.link}">${articulo.title}</a></h1>
                         <div class="postcard__subtitle small">
                             <time datetime="2020-05-25 12:00:00">
-                                <i class="fas fa-calendar-alt mr-2"></i>${articulo.subtitle}
+                                <i class="fas fa-book mr-2"></i>${articulo.subtitle}
                             </time>
                         </div>
                         <div class="postcard__bar"></div>
                         <div class="postcard__preview-txt">${articulo.description}</div>
                         <ul class="postcard__tagbox">
-                            <li class="tag__item"><i class="fas fa-tag mr-2"></i>${articulo.tag}</li>
-                            <li class="tag__item"><i class="fas fa-clock mr-2"></i>${articulo.duration}</li>
+                            ${tagsHTML} 
                             <li class="tag__item play ${articulo.color}">
-                                <a href="${articulo.link}"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                <a href="${articulo.link}" target="_blank"><i class="fas fa-link mr-2"></i>Abrir revista</a>
                             </li>
                         </ul>
                     </div>

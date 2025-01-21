@@ -1,36 +1,50 @@
 [
-    {
-      "id": 1,
-      "title": "Podcast Title 1",
-      "subtitle": "Mon, May 25th 2020",
-      "img": "https://picsum.photos/1000/1000",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "tag": "Podcast",
-      "duration": "55 mins",
-      "color": "blue",
-      "link": "https://www.google.com"
-    },
-    {
-      "id": 2,
-      "title": "Podcast Title 2",
-      "subtitle": "Mon, May 26th 2020",
-      "img": "https://picsum.photos/1000/1001",
-      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "tag": "Podcast",
-      "duration": "45 mins",
-      "color": "green",
-      "link": "https://www.google.com"
-    },
-    {
-      "id": 3,
-      "title": "Podcast Title 3",
-      "subtitle": "Mon, May 27th 2020",
-      "img": "https://picsum.photos/1000/1002",
-      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "tag": "Podcast",
-      "duration": "60 mins",
-      "color": "red",
-      "link": "https://www.google.com"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Killkana",
+    "subtitle": "Revista De Investigación Científica",
+    "img": "https://picsum.photos/1000/1000",
+    "description": "La Dirección de Posgrado, Investigación, Vinculación de la Sociedad y Publicaciones de la Universidad Católica de Cuenca, pone a la disposición de la comunidad científica las Revistas Killkana, que abarcan tres áreas fundamentales: Ciencias Sociales, Salud y Bienestar y Ciencias Técnicas e Ingenierías. Tienen una periodicidad trianual. Los trabajos publicados están en español e inglés y son estrictamente originales, y pasan por un sistema de arbitrajes de doble par ciego. Todas tienen tanto edición impresa como electrónica.",
+    "tags": [
+      "<li class='tag__item'><a href='https://killkana.ucacue.edu.ec/index.php/killkana_social'target='_blank'><i class='fas fa-tag mr-2'></i>Killkana Social</a></li>",
+      "<li class='tag__item'><a href='https://killkana.ucacue.edu.ec/index.php/killkana_social'target='_blank'><i class='fas fa-tag mr-2'></i>Killkana Salud y Bienestar</a></li>",
+      "<li class='tag__item'><a href='https://killkana.ucacue.edu.ec/index.php/killkana_social'target='_blank'><i class='fas fa-tag mr-2'></i>Killkana Técnica</a></li>"
+    ],
+    "color": "red",
+    "link": "https://killkana.ucacue.edu.ec/"
+  },
+  {
+    "id": 2,
+    "title": "CEUS",
+    "subtitle": "Revista De Investigación Científica",
+    "img": "https://picsum.photos/1000/1001",
+    "description": "La Revista Estudiantil CEUS (Ciencia Estudiantil Unidad de Salud) está dirigida a docentes, investigadores, estudiantes y profesionales de las Ciencias de la Salud y de ciencias afines interesados en la actualización y desarrollo de los procesos de la investigación científica.",
+    "tags": [
+    ],
+    "color": "blue",
+    "link": "https://ceus.ucacue.edu.ec/"
+  },
+  {
+    "id": 3,
+    "title": "Decisión Gerencial",
+    "subtitle": "Revista Académica Científica",
+    "img": "https://picsum.photos/1000/1002",
+    "description": "La Revista Decisión Gerencial se constituye en un medio de divulgación de resultados de investigaciones a través de las diversas contribuciones originales con aportes teóricos y empíricos, realizados por docentes y estudiantes de Instituciones educativas nacionales e internacionales, profesionales del sector público y privado; así como, todos (as) aquellos interesados en publicar sus estudios en áreas de la contabilidad, administración, marketing, economía y otras áreas afines  a las ciencias económicas-administrativas, siempre desde un enfoque gerencial.",
+    "tags": [
+    ],
+    "color": "green",
+    "link": "https://decisiongerencial.ucacue.edu.ec/"
+  },
+  {
+    "id": 4,
+    "title": "Podcast Title 4",
+    "subtitle": "Mon, May 28th 2020",
+    "img": "https://picsum.photos/1000/1003",
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "tags": [
+      "<li class='tag__item'><i class='fas fa-tag mr-2'></i>Podcast</li>"
+    ],
+    "color": "yellow",
+    "link": "https://www.google.com"
+  }
+]
