@@ -21,7 +21,6 @@ function toggleMode() {
         textbody.classList.toggle("t-dark");
     });
 
-    // document.querySelector(".btn-toggle").textContent = section.classList.contains("dark") ? "Modo Claro" : "Modo Oscuro";
     // Cambiar el ícono del botón
     btnToggleIcon.classList.remove("fas", "far");
     btnToggleIcon.classList.add(section.classList.contains("dark") ? "fas" : "far");
@@ -38,6 +37,50 @@ function toggleMode() {
     // Guardar la configuración en localStorage
     localStorage.setItem('userSettings', JSON.stringify(userSettings));
 }
+
+
+window.addEventListener("load", () => {
+    // Cargar artículos desde el archivo JSON
+    fetch('articulos.json')
+        .then(response => response.json())
+        .then(articulos => {
+            const articlesContainer = document.getElementById("articles-container");
+
+            // Iterar sobre los artículos y generarlos en el HTML
+            articulos.forEach(articulo => {
+                const article = document.createElement('article');
+                article.classList.add('postcard', 'light', articulo.color);
+                
+                article.innerHTML = `
+                    <a class="postcard__img_link" href="${articulo.link}">
+                        <img class="postcard__img" src="${articulo.img}" alt="${articulo.title}" />
+                    </a>
+                    <div class="postcard__text t-dark" id="pageBodyText">
+                        <h1 class="postcard__title ${articulo.color}"><a href="${articulo.link}">${articulo.title}</a></h1>
+                        <div class="postcard__subtitle small">
+                            <time datetime="2020-05-25 12:00:00">
+                                <i class="fas fa-calendar-alt mr-2"></i>${articulo.subtitle}
+                            </time>
+                        </div>
+                        <div class="postcard__bar"></div>
+                        <div class="postcard__preview-txt">${articulo.description}</div>
+                        <ul class="postcard__tagbox">
+                            <li class="tag__item"><i class="fas fa-tag mr-2"></i>${articulo.tag}</li>
+                            <li class="tag__item"><i class="fas fa-clock mr-2"></i>${articulo.duration}</li>
+                            <li class="tag__item play ${articulo.color}">
+                                <a href="${articulo.link}"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                            </li>
+                        </ul>
+                    </div>
+                `;
+
+                // Añadir el artículo al contenedor
+                articlesContainer.appendChild(article);
+            });
+        })
+        .catch(error => console.error('Error al cargar el archivo JSON:', error));
+});
+
 
 // Cargar la configuración guardada desde localStorage al cargar la página
 window.addEventListener("load", () => {
@@ -96,8 +139,5 @@ window.addEventListener("load", () => {
         // Restaurar el ícono correcto
         btnToggleIcon.classList.remove("fas", "far");
         btnToggleIcon.classList.add(section.classList.contains("dark") ? "fas" : "far");
-
-        // Cambiar el texto del botón
-        // btnToggle.textContent = section.classList.contains("dark") ? "Modo Claro" : "Modo Oscuro";
     }
 });

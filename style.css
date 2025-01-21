@@ -312,3 +312,9 @@ a, a:hover {
     background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50%);
   }
 }
+
+#theme-section .container .h1{
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 0.1em;
+}

@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "title": "Podcast Title 1",
+      "subtitle": "Mon, May 25th 2020",
+      "img": "https://picsum.photos/1000/1000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "tag": "Podcast",
+      "duration": "55 mins",
+      "color": "blue",
+      "link": "https://www.google.com"
+    },
+    {
+      "id": 2,
+      "title": "Podcast Title 2",
+      "subtitle": "Mon, May 26th 2020",
+      "img": "https://picsum.photos/1000/1001",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tag": "Podcast",
+      "duration": "45 mins",
+      "color": "green",
+      "link": "https://www.google.com"
+    },
+    {
+      "id": 3,
+      "title": "Podcast Title 3",
+      "subtitle": "Mon, May 27th 2020",
+      "img": "https://picsum.photos/1000/1002",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "tag": "Podcast",
+      "duration": "60 mins",
+      "color": "red",
+      "link": "https://www.google.com"
+    }
+  ]
+  
