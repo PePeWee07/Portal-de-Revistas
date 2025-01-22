@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Killkana",
     "subtitle": "Revista de Investigación Científica",
-    "img": "https://picsum.photos/1000/1000",
+    "img": "https://picsum.photos/1000/1001",
     "description": "La Dirección de Posgrado, Investigación, Vinculación de la Sociedad y Publicaciones de la Universidad Católica de Cuenca, pone a la disposición de la comunidad científica las Revistas Killkana, que abarcan tres áreas fundamentales: Ciencias Sociales, Salud y Bienestar y Ciencias Técnicas e Ingenierías. Tienen una periodicidad trianual. Los trabajos publicados están en español e inglés y son estrictamente originales, y pasan por un sistema de arbitrajes de doble par ciego. Todas tienen tanto edición impresa como electrónica.",
     "tags": [
       "<li class='tag__item'><a href='https://killkana.ucacue.edu.ec/index.php/killkana_social'target='_blank'><i class='fas fa-tag mr-2'></i>Killkana Social</a></li>",
@@ -17,7 +17,7 @@
     "id": 2,
     "title": "CEUS",
     "subtitle": "Revista de Ciencias de la Salud",
-    "img": "https://picsum.photos/1000/1001",
+    "img": "https://picsum.photos/1000/1002",
     "description": "La Revista Estudiantil CEUS (Ciencia Estudiantil Unidad de Salud) está dirigida a docentes, investigadores, estudiantes y profesionales de las Ciencias de la Salud y de ciencias afines interesados en la actualización y desarrollo de los procesos de la investigación científica.",
     "tags": [
         "<li class='tag__item'><i class='fas fa-tag mr-2'></i>Medicina</li>",
@@ -34,7 +34,7 @@
     "id": 3,
     "title": "Decisión Gerencial",
     "subtitle": "Revista Académica Científica",
-    "img": "https://picsum.photos/1000/1002",
+    "img": "https://picsum.photos/1000/1003",
     "description": "La Revista Decisión Gerencial se constituye en un medio de divulgación de resultados de investigaciones a través de las diversas contribuciones originales con aportes teóricos y empíricos, realizados por docentes y estudiantes de Instituciones educativas nacionales e internacionales, profesionales del sector público y privado; así como, todos (as) aquellos interesados en publicar sus estudios en áreas de la contabilidad, administración, marketing, economía y otras áreas afines  a las ciencias económicas-administrativas, siempre desde un enfoque gerencial.",
     "tags": [
         "<li class='tag__item'><i class='fas fa-tag mr-2'></i>Administración</li>",
@@ -51,7 +51,7 @@
     "id": 4,
     "title": "Directum",
     "subtitle": "Revista de Derecho",
-    "img": "https://picsum.photos/1000/1003",
+    "img": "https://picsum.photos/1000/1004",
     "description": "La Revista de Derecho Directum con su tema central Retos Actuales del Derecho, se encarga de analizar desde una perspectiva crítica tópicos como el de las finanzas públicas, el del Estado constitucional o el del teletrabajo, presentando con una sólida fundamentación teórica, investigaciones que respondan a los problemas de la sociedad y del derecho.",
     "tags": [
         "<li class='tag__item'><i class='fas fa-tag mr-2'></i>Derecho</li>",
@@ -67,7 +67,7 @@
     "id": 5,
     "title": "Publicaciones EDUNICA",
     "subtitle": "Revista de Investigación Científica",
-    "img": "https://picsum.photos/1000/1003",
+    "img": "https://picsum.photos/1000/1005",
     "description": "EDUNICA es una editorial que cuenta con una ediciones impresas y ediciones digitales. Estamos adscritos a la Jefatura de Investigación de la Universidad Católica de Cuenca. Fue creada con la finalidad de difundir la producción científica de los docentes investigadores desde los ámbitos locales, regionales e internacionales. Cuenta con diversas colecciones: Ciencias Sociales y Humanidades, Salud y Bienestar, Ciencias Ingenierías y Medio Ambiente, y Scientia (en esta última colección se publican libros que muestran los resultados de proyectos de investigación o vinculación que pertenecen a las convocatorias de proyectos de investigación institucionales).",
     "tags": [
         "<li class='tag__item'><i class='fas fa-tag mr-2'></i>Ciencias Sociales</li>",
@@ -82,8 +82,8 @@
   {
     "id": 6,
     "title": "O-Activa",
-    "subtitle": "Revista Odontológica",
-    "img": "https://picsum.photos/1000/1003",
+    "subtitle": "Revista Odontológica y Ciencias de la Salud",
+    "img": "https://picsum.photos/1000/1006",
     "description": "La revista O-Activa Es un órgano de difusión científica que pretende compartir todo tipo de trabajos científicos con el objetivo fundamental de transmitir el conocimiento dentro del área odontológica. Odontología Activa está dirigida a todos los docentes, investigadores, profesionales y estudiantes, no solo de la especialidad, sino también del área de las Ciencias de la Salud en general. De esta forma se contribuye al fortalecimiento, discusión e intercambio de conocimientos, proporcionando con ello, información que sirva de base para el desarrollo profesional y la formación continua.",
     "tags": [
         "<li class='tag__item'><i class='fas fa-tag mr-2'></i>Odontologíca</li>",
