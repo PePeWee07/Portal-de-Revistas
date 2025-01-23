@@ -41,7 +41,7 @@ function toggleMode() {
 
 window.addEventListener("load", () => {
     // Cargar artículos desde el archivo JSON
-    fetch('articulos.json')
+    fetch('/src/assets/data/articulos.json')
         .then(response => response.json())
         .then(articulos => {
             const articlesContainer = document.getElementById("articles-container");

@@ -6,15 +6,15 @@
 	<title>Revistas Investigación</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="./style.css" />
-	<link rel="icon" type="image/png" href="ucacue.ico" />
+	<link rel="stylesheet" href="/src/assets/styles/style.css" />
+	<link rel="icon" type="image/ico" href="/src/assets/img/ucacue.ico" />
 </head>
 
 <body>
 	<!-- Navbar -->
 	<nav class="navbar navbar-dark bg-dark">
 		<a class="navbar-brand" href="#">
-			<img src="https://servicios.ucacue.edu.ec/wp-content/uploads/2021/12/cropped-logo-servicios-tecnologicos-jti-v2.png"
+			<img src="/src/assets/img/logo-servicios-tegnologicos-jti.png"
 				width="353" height="60" class="d-inline-block align-top" alt="" loading="lazy" />
 		</a>
 		<button class="btn btn-secondary btn-toggle ml-2 my-2 my-sm-0" onclick="toggleMode()">
@@ -22,6 +22,7 @@
 		</button>
 	</nav>
 
+	<!-- REVISTAS -->
 	<section class="light" id="theme-section">
 		<div class="container py-4">
 			<h1 class="h1 text-center text-dark" id="pageHeaderTitle">
@@ -33,7 +34,7 @@
 		</div>
 	</section>
 
-
+	<!-- Footer -->
 	<footer class="site-footer">
 		<div class="container py-5">
 			<div class="row">
@@ -98,13 +99,13 @@
 					<section class="widget widget_block">
 						<ul id="ListContactos">
 							<li>
-								<i class="fa fa-map-marker-alt mr-2"></i><strong>Matriz Cuenca:</strong> Av. de las Américas y Humboldt
+								<i class="fa fa-map-marker-alt mr-2" style="color: white;"></i><strong>Matriz Cuenca:</strong> Av. de las Américas y Humboldt
 							</li>
 							<li>
-								<i class="fa fa-phone-alt mr-2"></i><strong>Teléfono: </strong>593 (07)2-830-751<br /> 2-830-877 <br /> 2-824-365
+								<i class="fa fa-phone-alt mr-2" style="color: white;"></i><strong>Teléfono: </strong>593 (07)2-830-751<br /> 2-830-877 <br /> 2-824-365
 							</li>
 							<li>
-								<i class="fa fa-envelope mr-2"></i><strong>email: </strong><a href="mailto:info@ucacue.edu.ec">info@ucacue.edu.ec</a>
+								<i class="fa fa-envelope mr-2" style="color: white;"></i><strong>email: </strong><a href="mailto:info@ucacue.edu.ec" style="color: white;">info@ucacue.edu.ec</a>
 							</li>
 						</ul>
 					</section>
@@ -112,7 +113,7 @@
 			</div>
 		</div>
 
-		<div class="contianer py-5 px-4">
+		<div class="contianer p-5">
 			<div class="row">
 				<div class="col-12">
 					<div class="site-footer-area footer-area-site-info">
@@ -127,7 +128,9 @@
 			</div>
 		</div>
 	</footer>
-	<script src="script.js"></script>
+
+	<!-- Script -->
+	<script src="/src/assets/scripts/script.js"></script>
 </body>
 
 </html>

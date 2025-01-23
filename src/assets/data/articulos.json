@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Killkana",
     "subtitle": "Revista de Investigación Científica",
-    "img": "https://picsum.photos/1000/1001",
+    "img": "/src/assets/img/killkana.png",
     "description": "La Dirección de Posgrado, Investigación, Vinculación de la Sociedad y Publicaciones de la Universidad Católica de Cuenca, pone a la disposición de la comunidad científica las Revistas Killkana, que abarcan tres áreas fundamentales: Ciencias Sociales, Salud y Bienestar y Ciencias Técnicas e Ingenierías. Tienen una periodicidad trianual. Los trabajos publicados están en español e inglés y son estrictamente originales, y pasan por un sistema de arbitrajes de doble par ciego. Todas tienen tanto edición impresa como electrónica.",
     "tags": [
       "<li class='tag__item'><a href='https://killkana.ucacue.edu.ec/index.php/killkana_social'target='_blank'><i class='fas fa-tag mr-2'></i>Killkana Social</a></li>",

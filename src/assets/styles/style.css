@@ -380,12 +380,12 @@ a, a:hover {
 }
 
 .site-footer{
- background-image: url("https://servicios.ucacue.edu.ec/wp-content/themes/icelander/assets/images/footer/footer.jpg");
+  background-image: url("/src/assets/img/footer-Background.jpg");
  background-color: #242323;
  background-size: cover;
  background-repeat: no-repeat;
  background-position: center;
- box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.95);
+ box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.9);
 }
 
 .widget-title{
