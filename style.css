@@ -379,3 +379,61 @@ a, a:hover {
   font-family: "Poppins", sans-serif;
 }
 
+.site-footer{
+ background-image: url("https://servicios.ucacue.edu.ec/wp-content/themes/icelander/assets/images/footer/footer.jpg");
+ background-color: #242323;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.95);
+}
+
+.widget-title{
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.38;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .075em;
+}
+
+#menu-footer_lacato, #menu-servicios-ti, #menu-menu-servicios, #ListContactos{
+  list-style: none;
+  padding-left: 0;
+  padding-top: 40px;
+}
+#menu-footer_lacato li, #menu-servicios-ti li, #menu-menu-servicios li, #ListContactos li{
+  padding: 0.38em 0;
+  font-size: 0.905em;
+}
+#ListContactos li{
+  color: #a4a3a3;
+}
+
+#menu-footer_lacato a, #menu-servicios-ti a, #menu-menu-servicios a, #ListContactos a{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  line-height: 1.38;
+}
+
+#menu-footer_lacato a:hover, #menu-servicios-ti a:hover, #menu-menu-servicios a:hover, #ListContactos a:hover{
+  color: #bf0f28;
+}
+
+.site-info{
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.38;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .075em;
+}
+.site-info a{
+  color: #bf0f28;
+  text-decoration: none;
+}
+
+.menu li:not(:last-child), #ListContactos li:not(:last-child) {
+  border-bottom: 1px solid #a4a3a3;
+}
