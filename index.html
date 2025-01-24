@@ -12,22 +12,26 @@
 
 <body>
 	<!-- Navbar -->
-	<nav class="navbar navbar-dark bg-dark">
+	<nav class="navbar navbar-light bg-light">
 		<a class="navbar-brand" href="#">
-			<img src="/src/assets/img/logo-servicios-tegnologicos-jti.png"
-				width="353" height="60" class="d-inline-block align-top" alt="" loading="lazy" />
+			<img src="/src/assets/img/ucacue.jpeg"
+				width="200" height="60" class="d-inline-block align-top" alt="" loading="lazy" />
 		</a>
-		<button class="btn btn-secondary btn-toggle ml-2 my-2 my-sm-0" onclick="toggleMode()">
+
+		<button class="btn btn-secondary bg-dark btn-toggle ml-2 my-2 my-sm-0" onclick="toggleMode()">
 			<i class="fas fa-moon"></i>
 		</button>
 	</nav>
 
 	<!-- REVISTAS -->
 	<section class="light" id="theme-section">
-		<div class="container py-4">
+		<div class="container py-3">
 			<h1 class="h1 text-center text-dark" id="pageHeaderTitle">
 				Revistas Científicas
 			</h1>
+
+			<!-- Botón de redirección -->
+			<div class="d-flex justify-content-center pb-5" id="btn-redirect-container"></div>
 
 			<!-- Los artículos se cargarán aquí dinámicamente -->
 			<div id="articles-container"></div>
@@ -131,6 +135,7 @@
 
 	<!-- Script -->
 	<script src="/src/assets/scripts/script.js"></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
 </body>
 
 </html>

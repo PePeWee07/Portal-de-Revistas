@@ -465,3 +465,18 @@ a, a:hover {
 .menu li:not(:last-child), #ListContactos li:not(:last-child) {
   border-bottom: 1px solid #a4a3a3;
 }
+
+.btn-redirect{
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.38;
+  text-transform: uppercase;
+  letter-spacing: .075em;
+  cursor: pointer;
+}
+
+.btn-redirect:hover{
+  border-width: 2px;
+  border-color: #bf0f28 !important;
+}
