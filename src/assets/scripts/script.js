@@ -167,7 +167,7 @@ window.addEventListener("load", () => {
 function scrollToSection(sectionClass) {
     const section = document.querySelector('.' + sectionClass);
     if (section) {
-        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        section.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' });
     }
 }
 
