@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 /* This pen */
 body {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Baloo 2", sans-serif;
   font-size: 16px;
   color: #ffffff;
   text-rendering: optimizeLegibility;
@@ -62,6 +63,7 @@ a, a:hover {
 .postcard .postcard__title {
   font-size: 1.75rem;
   padding-inline: 5px;
+  text-transform: uppercase;
 }
 .postcard .postcard__img {
   max-height: 180px;
@@ -131,10 +133,6 @@ a, a:hover {
 @media screen and (min-width: 769px) {
   .postcard {
     flex-wrap: inherit;
-  }
-  .postcard .postcard__title {
-    font-size: 2rem;
-    padding-inline: 5px;
   }
   .postcard .postcard__tagbox {
     justify-content: start;
@@ -404,7 +402,6 @@ a, a:hover {
   font-weight: 600;
   line-height: 0.1em;
   padding: 2rem;
-  font-family: "Poppins", sans-serif;
   margin-bottom: 0;
 }
 
@@ -452,7 +449,7 @@ a, a:hover {
 
 .site-info{
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.38;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -500,8 +497,8 @@ a, a:hover {
 #btn-redirect-container.scrolled {
   background-color: rgb(17, 15, 22, 0.5);
   padding: 20px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 #btn-redirect-container.scrolled .btn-redirect:focus {
