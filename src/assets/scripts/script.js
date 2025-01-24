@@ -171,3 +171,12 @@ function scrollToSection(sectionClass) {
     }
 }
 
+window.addEventListener("scroll", function () {
+    const btnContainer = document.getElementById("btn-redirect-container");
+
+    if (window.scrollY > 50) { 
+        btnContainer.classList.add("scrolled");
+    } else {
+        btnContainer.classList.remove("scrolled");
+    }
+});

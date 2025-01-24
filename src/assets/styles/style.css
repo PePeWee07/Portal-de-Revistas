@@ -405,10 +405,11 @@ a, a:hover {
   line-height: 0.1em;
   padding: 2rem;
   font-family: "Poppins", sans-serif;
+  margin-bottom: 0;
 }
 
 .site-footer{
-  background-image: url("/src/assets/img/footer-Background.jpg");
+ background-image: url("/src/assets/img/footer-Background.jpg");
  background-color: #242323;
  background-size: cover;
  background-repeat: no-repeat;
@@ -477,6 +478,33 @@ a, a:hover {
 }
 
 .btn-redirect:hover{
+  border-width: 2px;
+  border-color: #bf0f28 !important;
+}
+
+#btn-redirect-container {
+  padding: 20px 0 40px 0;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#btn-redirect-container.scrolled .btn-redirect {
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .020em;
+  cursor: pointer;
+}
+
+#btn-redirect-container.scrolled {
+  background-color: rgb(17, 15, 22, 0.5);
+  padding: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#btn-redirect-container.scrolled .btn-redirect:focus {
   border-width: 2px;
   border-color: #bf0f28 !important;
 }
