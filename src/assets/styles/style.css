@@ -294,11 +294,11 @@ a, a:hover {
 }
 
 .orange::before {
-  background-image: linear-gradient(-30deg, rgba(198, 95, 44, 0.7), transparent 50%);
+  background-image: linear-gradient(-30deg, rgba(198, 95, 44, 0.4), transparent 50%);
 }
 
 .orange:nth-child(2n)::before {
-  background-image: linear-gradient(30deg, rgba(198, 95, 44, 0.7), transparent 50%);
+  background-image: linear-gradient(30deg, rgba(198, 95, 44, 0.4), transparent 50%);
 }
 
 .postcard .postcard__tagbox .skyblue.play:hover {
@@ -334,11 +334,11 @@ a, a:hover {
 }
 
 .purple::before {
-  background-image: linear-gradient(-30deg, rgba(90, 85, 143, 0.7), transparent 50%);
+  background-image: linear-gradient(-30deg, rgba(90, 85, 143, 0.4), transparent 50%);
 }
 
 .purple:nth-child(2n)::before {
-  background-image: linear-gradient(30deg, rgba(90, 85, 143, 0.7), transparent 50%);
+  background-image: linear-gradient(30deg, rgba(90, 85, 143, 0.4), transparent 50%);
 }
 
 @media screen and (min-width: 769px) {
@@ -375,11 +375,11 @@ a, a:hover {
   }
 
   .orange::before {
-    background-image: linear-gradient(-80deg, rgba(198, 95, 44, 0.7), transparent 50%);
+    background-image: linear-gradient(-80deg, rgba(198, 95, 44, 0.4), transparent 50%);
   }
 
   .orange:nth-child(2n)::before {
-    background-image: linear-gradient(80deg, rgba(198, 95, 44, 0.7), transparent 50%);
+    background-image: linear-gradient(80deg, rgba(198, 95, 44, 0.4), transparent 50%);
   }
   
   .skyblue::before {
