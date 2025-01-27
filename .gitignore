@@ -14,6 +14,3 @@ HELP.md
 /logs
 /tmp
 *.log
-
-test.html
-*.conf
