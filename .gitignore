@@ -16,3 +16,4 @@ HELP.md
 *.log
 
 test.html
+*.conf
