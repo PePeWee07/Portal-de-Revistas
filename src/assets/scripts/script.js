@@ -7,17 +7,21 @@ function toggleMode() {
     const btnToggleIcon = document.querySelector(".btn-toggle i");
     const btnRedirect = document.querySelectorAll(".btn-redirect");
 
+    // Cambiar el color de la sección principal
     section.classList.toggle("dark");
     section.classList.toggle("light");
 
+    // Cambiar el color de los artículos
     articles.forEach(article => {
         article.classList.toggle("dark");
         article.classList.toggle("light");
     });
 
+    // Cambiar el color del título de la página
     textTitle.classList.toggle("text-light");
     textTitle.classList.toggle("text-dark");
 
+    // Cambiar el color del texto de los artículos
     textBodies.forEach(textbody => {
         textbody.classList.toggle("t-light");
         textbody.classList.toggle("t-dark");
@@ -41,7 +45,6 @@ function toggleMode() {
         textBodies: Array.from(textBodies).map(textbody => textbody.classList.contains("t-dark") ? "dark" : "light"),
         icon: section.classList.contains("dark") ? "fas" : "far",
         btnRedirect: Array.from(btnRedirect).map(button => button.classList.contains("btn-dark") ? "dark" : "light")
-
     };
 
     // Guardar la configuración en localStorage
@@ -57,13 +60,13 @@ window.addEventListener("load", () => {
             const articlesContainer = document.getElementById("articles-container");
             const buttonsNav = document.getElementById("btn-redirect-container");
 
-            // Iterar sobre los artículos y generarlos en el HTML
             articulos.forEach(articulo => {
                 const article = document.createElement('article');
                 article.classList.add('postcard', 'light', articulo.color, articulo.title.replace(/\s+/g, '_'));
 
                 const tagsHTML = articulo.tags.join("");
                 
+                //Carga de los artículos
                 article.innerHTML = `
                     <a class="postcard__img_link" href="${articulo.link}">
                         <img class="postcard__img" src="${articulo.img}" alt="${articulo.title}" />
@@ -85,11 +88,9 @@ window.addEventListener("load", () => {
                         </ul>
                     </div>
                 `;
-
-                // Añadir el artículo al contenedor
                 articlesContainer.appendChild(article);
 
-                // Crear botones de navegación
+                // Carga de botoes de navegación
                 const button = document.createElement('button');
                 button.classList.add('btn', 'btn-light', 'border-secondary', 'rounded-pill', 'mx-1', 'btn-redirect');
                 button.textContent = articulo.title;
@@ -97,6 +98,7 @@ window.addEventListener("load", () => {
                 buttonsNav.appendChild(button);
 
 
+                //ScrollReveal
                 ScrollReveal().reveal('.postcard', {
                     duration: 1000,
                     scale: 0.85,
@@ -171,6 +173,7 @@ function scrollToSection(sectionClass) {
     }
 }
 
+// Ir a la sección de artículos al hacer clic en el botón
 window.addEventListener("scroll", function () {
     const btnContainer = document.getElementById("btn-redirect-container");
 
