@@ -83,7 +83,7 @@ window.addEventListener("load", () => {
                         <ul class="postcard__tagbox">
                             ${tagsHTML} 
                             <li class="tag__item play ${articulo.color}">
-                                <a href="${articulo.link}"><i class="fas fa-link mr-2"></i>Abrir revista</a>
+                                <a href="${articulo.link}" target='_blank'><i class="fas fa-link mr-2"></i>Abrir revista</a>
                             </li>
                         </ul>
                     </div>
