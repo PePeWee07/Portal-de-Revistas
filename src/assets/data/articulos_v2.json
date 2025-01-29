@@ -15,6 +15,19 @@
   },
   {
     "id": 2,
+    "title": "O-Activa",
+    "subtitle": "Revista Odontológica y Ciencias de la Salud",
+    "img": "/src/assets/img/oactiva.png",
+    "description": "La revista O-Activa Es un órgano de difusión científica que pretende compartir todo tipo de trabajos científicos con el objetivo fundamental de transmitir el conocimiento dentro del área odontológica. Odontología Activa está dirigida a todos los docentes, investigadores, profesionales y estudiantes, no solo de la especialidad, sino también del área de las Ciencias de la Salud en general. De esta forma se contribuye al fortalecimiento, discusión e intercambio de conocimientos, proporcionando con ello, información que sirva de base para el desarrollo profesional y la formación continua.",
+    "tags": [
+        "<li class='tag__item'><i class='fas fa-tag mr-2'></i>Odontologíca</li>",
+        "<li class='tag__item'><i class='fas fa-tag mr-2'></i>Ciencias de la Salud</li>"
+    ],
+    "color": "skyblue",
+    "link": "https://oactiva.ucacue.edu.ec/"
+  },  
+  {
+    "id": 3,
     "title": "CEUS",
     "subtitle": "Revista de Ciencias de la Salud",
     "img": "/src/assets/img/ceus.png",
@@ -31,7 +44,7 @@
     "link": "https://ceus.ucacue.edu.ec/"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Decisión Gerencial",
     "subtitle": "Revista Académica Científica",
     "img": "/src/assets/img/decisionGerencial.png",
@@ -48,7 +61,7 @@
     "link": "https://decisiongerencial.ucacue.edu.ec/"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Directum",
     "subtitle": "Revista de Derecho",
     "img": "/src/assets/img/directum.png",
@@ -62,34 +75,5 @@
     ],
     "color": "purple",
     "link": "https://directum.ucacue.edu.ec/"
-  },
-  {
-    "id": 5,
-    "title": "Publicaciones EDUNICA",
-    "subtitle": "Revista de Investigación Científica",
-    "img": "/src/assets/img/edunica.png",
-    "description": "EDUNICA es una editorial que cuenta con una ediciones impresas y ediciones digitales. Estamos adscritos a la Jefatura de Investigación de la Universidad Católica de Cuenca. Fue creada con la finalidad de difundir la producción científica de los docentes investigadores desde los ámbitos locales, regionales e internacionales. Cuenta con diversas colecciones: Ciencias Sociales y Humanidades, Salud y Bienestar, Ciencias Ingenierías y Medio Ambiente, y Scientia (en esta última colección se publican libros que muestran los resultados de proyectos de investigación o vinculación que pertenecen a las convocatorias de proyectos de investigación institucionales).",
-    "tags": [
-        "<li class='tag__item'><i class='fas fa-tag mr-2'></i>Ciencias Sociales</li>",
-        "<li class='tag__item'><i class='fas fa-tag mr-2'></i>Humanidades</li>",
-        "<li class='tag__item'><i class='fas fa-tag mr-2'></i>Salud y Bienestar</li>",
-        "<li class='tag__item'><i class='fas fa-tag mr-2'></i>Ciencias Ingenierías y Medio Ambiente</li>",
-        "<li class='tag__item'><i class='fas fa-tag mr-2'></i>Scientia</li>"
-    ],
-    "color": "red",
-    "link": "https://publicaciones.edunica.com.ec/"
-  },
-  {
-    "id": 6,
-    "title": "O-Activa",
-    "subtitle": "Revista Odontológica y Ciencias de la Salud",
-    "img": "/src/assets/img/oactiva.png",
-    "description": "La revista O-Activa Es un órgano de difusión científica que pretende compartir todo tipo de trabajos científicos con el objetivo fundamental de transmitir el conocimiento dentro del área odontológica. Odontología Activa está dirigida a todos los docentes, investigadores, profesionales y estudiantes, no solo de la especialidad, sino también del área de las Ciencias de la Salud en general. De esta forma se contribuye al fortalecimiento, discusión e intercambio de conocimientos, proporcionando con ello, información que sirva de base para el desarrollo profesional y la formación continua.",
-    "tags": [
-        "<li class='tag__item'><i class='fas fa-tag mr-2'></i>Odontologíca</li>",
-        "<li class='tag__item'><i class='fas fa-tag mr-2'></i>Ciencias de la Salud</li>"
-    ],
-    "color": "skyblue",
-    "link": "https://oactiva.ucacue.edu.ec/"
   }
 ]
