@@ -68,11 +68,11 @@ window.addEventListener("load", () => {
                 
                 //Carga de los artículos
                 article.innerHTML = `
-                    <a class="postcard__img_link" href="${articulo.link}">
+                    <a class="postcard__img_link" href="${articulo.link}" target='_blank'>
                         <img class="postcard__img" src="${articulo.img}" alt="${articulo.title}" />
                     </a>
                     <div class="postcard__text t-dark" id="pageBodyText">
-                        <h1 class="postcard__title ${articulo.color} style="padding-inline:3px;"><a href="${articulo.link}">${articulo.title}</a></h1>
+                        <h1 class="postcard__title ${articulo.color} style="padding-inline:3px;"><a href="${articulo.link}" target='_blank'>${articulo.title}</a></h1>
                         <div class="postcard__subtitle small">
                             <time datetime="2020-05-25 12:00:00">
                                 <i class="fas fa-book mr-2"></i>${articulo.subtitle}
