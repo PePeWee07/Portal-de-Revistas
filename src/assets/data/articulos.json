@@ -7,8 +7,8 @@
     "description": "La Universidad Católica de Cuenca, pone a la disposición de la comunidad científica las Revistas Killkana, que abarcan tres áreas fundamentales: Ciencias Sociales, Salud y Bienestar y Ciencias Técnicas e Ingenierías. Tienen una periodicidad trianual. Los trabajos publicados están en español e inglés y son estrictamente originales, y pasan por un sistema de arbitrajes de doble par ciego. Todas tienen tanto edición impresa como electrónica.",
     "tags": [
       "<li class='tag__item'><a href='https://killkana.ucacue.edu.ec/index.php/killkana_social'target='_blank'><i class='fas fa-tag mr-2'></i>Killkana Social</a></li>",
-      "<li class='tag__item'><a href='https://killkana.ucacue.edu.ec/index.php/killkana_social'target='_blank'><i class='fas fa-tag mr-2'></i>Killkana Salud y Bienestar</a></li>",
-      "<li class='tag__item'><a href='https://killkana.ucacue.edu.ec/index.php/killkana_social'target='_blank'><i class='fas fa-tag mr-2'></i>Killkana Técnica</a></li>"
+      "<li class='tag__item'><a href='https://killkana.ucacue.edu.ec/index.php/killcana_salud'target='_blank'><i class='fas fa-tag mr-2'></i>Killkana Salud y Bienestar</a></li>",
+      "<li class='tag__item'><a href='https://killkana.ucacue.edu.ec/index.php/killkana_tecnico'target='_blank'><i class='fas fa-tag mr-2'></i>Killkana Técnica</a></li>"
     ],
     "color": "red",
     "link": "https://killkana.ucacue.edu.ec/"
